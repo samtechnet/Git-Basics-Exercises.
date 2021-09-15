@@ -14,4 +14,5 @@ Git Basics Exercises.
 12. git add -a
 13. git commit -am "removing third.txt
 14. git log 
-15. 
+15. git config --global core.pager "cat"
+16. git config --global --list
