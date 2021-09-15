@@ -1,0 +1,17 @@
+Git Basics Exercises.
+
+1. mkdir learn_git_again
+2. cd learn_git_again
+3. touch third.txt
+4. git init
+5. git add third.txt 
+6. git commit "adding third.txt"
+7. git log
+8. touch fourth.txt
+9. git add forth.txt
+10. git commit -am "adding forth.txt"
+11. git rm third.txt
+12. git add -a
+13. git commit -am "removing third.txt
+14. git log 
+15. 
