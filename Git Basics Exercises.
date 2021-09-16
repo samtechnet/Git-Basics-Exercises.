@@ -16,3 +16,35 @@ Git Basics Exercises.
 14. git log 
 15. git config --global core.pager "cat"
 16. git config --global --list
+
+
+
+GitHub Exercises. 
+
+Part I
+
+1. mkdir learn_git
+	touch gitt.txt
+	cd learn_git
+	git init
+	git add gitt.txt
+	git commit -am "initial commit"
+	git status
+2. git remote add origin github.com:samtechnet/Terminal-Basics-Exercises..git
+	git push -u origin master
+3. git clone git@github.com:samtechnet/git_practice.git
+	cd git_practice/
+	 code README.md ,
+	edit the file then close it 
+	git commit -am "updated version"
+	git remote add upstream git@github.com:rithmschool/git_practice.git
+	git push origin master
+	
+4. git branch 
+	git checkout -b newbranch 
+	touch new.txt
+	git add new.txt
+	git commit -m "second branch"
+	git push -u origin newbranch
+
+5. submitted a pull request for newbranch
